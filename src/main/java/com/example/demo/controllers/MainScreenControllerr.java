@@ -2,8 +2,6 @@ package com.example.demo.controllers;
 
 import com.example.demo.domain.Part;
 import com.example.demo.domain.Product;
-import com.example.demo.repositories.PartRepository;
-import com.example.demo.repositories.ProductRepository;
 import com.example.demo.service.PartService;
 import com.example.demo.service.ProductService;
 import org.springframework.data.repository.query.Param;
@@ -51,5 +49,10 @@ public class MainScreenControllerr {
         theModel.addAttribute("products", productList);
         theModel.addAttribute("productkeyword",productkeyword);
         return "mainscreen";
+    }
+
+    @GetMapping("mainscreen.html")
+    public String returnMainScreen() {
+        return "mainscreen.html";
     }
 }

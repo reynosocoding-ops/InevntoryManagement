@@ -28,6 +28,10 @@ line numbers : 19 - 22
 change: added nav section. added link to About page. styles with bootstrap classes
 
 
-File name: AboutController.html
+File name: AboutController.java
 line numbers : ALL
 change: Created AboutController. Created controller class and GetMapping method.
+
+File name: MainScreenControllerr.java
+line numbers : 54 - 57
+change: Created new Getmapping method to return the mainscreen.html with links
