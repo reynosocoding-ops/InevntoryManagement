@@ -23,3 +23,11 @@ File name: About.html
 line numbers : 20 - 28
 change: added a <p> section to describe the business.
 
+File name: mainscreen.html
+line numbers : 19 - 22
+change: added nav section. added link to About page. styles with bootstrap classes
+
+
+File name: AboutController.html
+line numbers : ALL
+change: Created AboutController. Created controller class and GetMapping method.
