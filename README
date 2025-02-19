@@ -5,3 +5,21 @@ C.  Customize the HTML user interface for your customer’s application. The use
 File name : mainscreen.html
 line numbers: 14, 19, 21, 53
 change: replaced the text in the headers and title to reflect my computer shop.
+
+D.  Add an “About” page to the application to describe your chosen customer’s company to web viewers and include navigation to and from the “About” page and the main screen.
+File name: About.html
+line numbers : ALL
+change: created about.html file and added html boilerplate copied header contents from mainscreen.html
+
+File name: About.html
+line numbers : ALL
+change: copied header contents from mainscreen.html
+
+File name: About.html
+line numbers : 15-19
+change: create Nav section with a <hr> tag underneath. In this section we added the page H1 and a link back to the main page. Each element was styled using bootstrap classes.
+
+File name: About.html
+line numbers : 20 - 28
+change: added a <p> section to describe the business.
+
