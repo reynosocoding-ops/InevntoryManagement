@@ -45,3 +45,13 @@ change: created 5 parts and 5 products
 File name: BootStrapData.java
 line numbers : 47
 change: added if statement that creates sample items only if product and part lists are empty
+
+
+F.  Add a “Buy Now” button to your product list. Your “Buy Now” button must meet each of the following parameters:
+•  The “Buy Now” button must be next to the buttons that update and delete products.
+• The button should decrement the inventory of that product by one. It should not affect the inventory of any of the associated parts.
+•  Display a message that indicates the success or failure of a purchase.
+
+File name: mainscreen.html
+line numbers : 88
+change: created a buy now button with the same styling as the other buttons
