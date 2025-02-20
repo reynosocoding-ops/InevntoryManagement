@@ -134,3 +134,8 @@ File name: AddProductController.java
  file name: PartTest.java
  Line numbers: 32 - 47
  Change: added two tests, getMaxInv and getMinInv
+
+
+J.  Remove the class files for any unused validators in order to clean your code.
+
+Deleted just one validator that had no usage.
