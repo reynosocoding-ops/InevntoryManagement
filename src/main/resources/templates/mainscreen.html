@@ -87,7 +87,7 @@
                    onclick="if(!(confirm('Are you sure you want to delete this product?')))return false">Delete</a>
                 <form th:action="@{/buyItNow}" method="post">
                     <input type="hidden" name="productId" th:value="${tempProduct.id}"/>
-                    <button style="margin-left: 1%" class="btn btn-primary btn-sm mb-3" >Buy It Now</button>
+                    <button style="margin-left: 1%" class="btn btn-primary btn-sm mb-3">Buy It Now</button>
                 </form>
             </td>
         </tr>

@@ -63,3 +63,8 @@ change: added styling so that the new button would be in line with the others. a
 File name: buyProductController.java
 line numbers : all
 change: Created new controller for the buy now button. This has the method to decrement product inventories.
+
+File name: buyProductController.html
+line numbers : 26 - 40
+change: edited method to return success and failure templates
+

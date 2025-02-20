@@ -25,10 +25,19 @@ public class buyProductController {
 
         if (productTemp.isPresent()) {
             Product product = productTemp.get();
-            product.setInv(product.getInv() - 1);
+            if(product.getInv() > 0) {
+
+                product.setInv(product.getInv() - 1);
+                productRepository.save(product);
+                return "productPurchaseSucess";
+            }
+            else {
+                return "productPurchaseFail";
+            }
 
         }
 
-        return "redirect:/mainscreen";
+        return "productPurchaseFail";
+
     }
 }
