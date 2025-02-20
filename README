@@ -124,3 +124,8 @@ File name: AddProductController.java
  line numbers : 172 - 179
  change: added if statement to removePart method. This makes sure that part inventory does not increase above 50.
 
+ file name: notEnoughParts.html,TooManyParts.html, notEnoughPartsController.java , TooManyPartsController.java
+ Line numbers: N/A
+ Change: added files to handle the enforcement messages
+
+
