@@ -68,3 +68,6 @@ File name: buyProductController.html
 line numbers : 26 - 40
 change: edited method to return success and failure templates
 
+File name: productPurchaseSucess.html and productPurchaseFail.html
+line numbers : all
+change: created two html templates for returning successful and failed product purchases
