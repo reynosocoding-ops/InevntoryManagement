@@ -86,3 +86,11 @@ change: added max and minimum inventory fields
 File name: part,java
 line numbers : 43- 53
 change: changed constructors to include max and min fields
+
+File name: OutsourcedPartForm.html
+line numbers : 25 - 29
+change: added forms for mx and min fields
+
+File name: InHousePartForm.html
+line numbers : 24 - 28
+change: added forms for mx and min fields
