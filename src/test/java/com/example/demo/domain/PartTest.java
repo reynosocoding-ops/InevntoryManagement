@@ -29,7 +29,22 @@ class PartTest {
         partOut = new OutsourcedPart();
     }
 
+    void getMaxInv(){
+        int inv = 50;
+        partIn.setMaxInv(inv);
+        assertEquals(inv, partIn.getMaxInv());
+        partOut.setMaxInv(inv);
+        assertEquals(inv, partOut.getMaxInv());
 
+    }
+
+    void getMinInv(){
+        int inv = 50;
+        partIn.setMinInv(inv);
+        assertEquals(inv, partIn.getMinInv());
+        partOut.setMinInv(inv);
+        assertEquals(inv, partOut.getMinInv());
+    }
 
     @Test
     void getId() {

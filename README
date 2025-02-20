@@ -128,4 +128,9 @@ File name: AddProductController.java
  Line numbers: N/A
  Change: added files to handle the enforcement messages
 
+ I.  Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
 
+
+ file name: PartTest.java
+ Line numbers: 32 - 47
+ Change: added two tests, getMaxInv and getMinInv
