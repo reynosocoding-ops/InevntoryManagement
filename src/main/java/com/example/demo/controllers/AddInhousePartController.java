@@ -31,6 +31,7 @@ public class AddInhousePartController{
 
     @GetMapping("/showFormAddInPart")
     public String showFormAddInhousePart(Model theModel){
+
         InhousePart inhousepart=new InhousePart();
         theModel.addAttribute("inhousepart",inhousepart);
         return "InhousePartForm";

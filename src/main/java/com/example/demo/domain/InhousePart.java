@@ -24,4 +24,5 @@ public class InhousePart extends Part{
     public void setPartId(int partId) {
         this.partId = partId;
     }
+
 }

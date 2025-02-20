@@ -48,7 +48,7 @@ public class BootStrapData implements CommandLineRunner {
             InhousePart monitor = new InhousePart();
             monitor.setId(1);
             monitor.setName("Monitor");
-            monitor.setInv(5);
+            monitor.setInv(15);
             monitor.setPrice(30.00);
             monitor.setMaxInv(50);
             monitor.setMinInv(10);
@@ -57,7 +57,7 @@ public class BootStrapData implements CommandLineRunner {
             InhousePart mouse = new InhousePart();
             mouse.setId(2);
             mouse.setName("Mouse");
-            mouse.setInv(8);
+            mouse.setInv(15);
             mouse.setPrice(20.00);
             mouse.setMaxInv(50);
             mouse.setMinInv(10);
@@ -66,7 +66,7 @@ public class BootStrapData implements CommandLineRunner {
             InhousePart keyboard = new InhousePart();
             keyboard.setId(3);
             keyboard.setName("Keyboard");
-            keyboard.setInv(10);
+            keyboard.setInv(15);
             keyboard.setPrice(30.00);
             keyboard.setMaxInv(50);
             keyboard.setMinInv(10);
@@ -75,7 +75,7 @@ public class BootStrapData implements CommandLineRunner {
             InhousePart compTower = new InhousePart();
             compTower.setId(4);
             compTower.setName("Computer Tower");
-            compTower.setInv(5);
+            compTower.setInv(15);
             compTower.setPrice(300.00);
             compTower.setMaxInv(50);
             compTower.setMinInv(10);
@@ -84,7 +84,7 @@ public class BootStrapData implements CommandLineRunner {
             InhousePart wifiRouter = new InhousePart();
             wifiRouter.setId(5);
             wifiRouter.setName("Wifi Router");
-            wifiRouter.setInv(6);
+            wifiRouter.setInv(15);
             wifiRouter.setPrice(60.00);
             wifiRouter.setMaxInv(50);
             wifiRouter.setMinInv(10);

@@ -94,3 +94,33 @@ change: added forms for mx and min fields
 File name: InHousePartForm.html
 line numbers : 24 - 28
 change: added forms for mx and min fields
+
+File name: PerformancePCDB.db
+line numbers : n/a
+change: renamed db file to PerformancePCDB
+
+File name: Part.java
+line numbers : 129 - 126
+change: added method to check if inventory falls within a range
+
+File name: Part.java
+line numbers : 33 -37
+change: added added validation rules when a object is being created that requires the min and max sizes be within range
+
+H.  Add validation for between or at the maximum and minimum fields. The validation must include the following:
+•  Display error messages for low inventory when adding and updating parts if the inventory is less than the minimum number of parts.
+•  Display error messages for low inventory when adding and updating products lowers the part inventory below the minimum.
+•  Display error messages when adding and updating parts if the inventory is greater than the maximum.
+
+File name: Part.java
+ line numbers : 33 -37
+ change: added added validation rules when a object is being created that requires the min and max sizes be within range
+
+ File name: AddProductController.java
+ line numbers : 140 -147
+ change: added if statement to associatePart method. This makes sure part inventory does not drop below 10
+
+File name: AddProductController.java
+ line numbers : 172 - 179
+ change: added if statement to removePart method. This makes sure that part inventory does not increase above 50.
+

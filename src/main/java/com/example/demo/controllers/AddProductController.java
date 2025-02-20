@@ -136,6 +136,15 @@ public class AddProductController {
     public String associatePart(@Valid @RequestParam("partID") int theID, Model theModel){
     //    theModel.addAttribute("product", product);
     //    Product product1=new Product();
+
+        Part tempPart = partService.findById(theID);
+        if((tempPart.getInv() - 1) < 10) {
+            return "notEnoughParts";
+
+        }
+        else{
+            tempPart.setInv(tempPart.getInv() - 1);
+        }
         if (product1.getName()==null) {
             return "saveproductscreen";
         }
@@ -159,6 +168,15 @@ public class AddProductController {
     public String removePart(@RequestParam("partID") int theID, Model theModel){
         theModel.addAttribute("product", product);
       //  Product product1=new Product();
+
+        Part tempPart = partService.findById(theID);
+        if((tempPart.getInv() + 1) > 50) {
+            return "TooManyParts";
+
+        }
+        else{
+            tempPart.setInv(tempPart.getInv() + 1);
+        }
         product1.getParts().remove(partService.findById(theID));
         partService.findById(theID).getProducts().remove(product1);
         ProductService productService = context.getBean(ProductServiceImpl.class);
