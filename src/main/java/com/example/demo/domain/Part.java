@@ -82,6 +82,7 @@ public abstract class Part implements Serializable {
         this.inv = inv;
     }
 
+
     public Set<Product> getProducts() {
         return products;
     }

@@ -53,5 +53,13 @@ F.  Add a “Buy Now” button to your product list. Your “Buy Now” button m
 •  Display a message that indicates the success or failure of a purchase.
 
 File name: mainscreen.html
-line numbers : 88
-change: created a buy now button with the same styling as the other buttons
+line numbers : 88 - 91
+change: Created buy now button. Wrapped it in a form and applied the same styling to the button as the other buttons
+
+File name: mainscreen.html
+line numbers : 85 - 91
+change: added styling so that the new button would be in line with the others. adjusted margin so their would be space in between.
+
+File name: buyProductController.java
+line numbers : all
+change: Created new controller for the buy now button. This has the method to decrement product inventories.
