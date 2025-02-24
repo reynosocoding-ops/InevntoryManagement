@@ -30,11 +30,11 @@ public abstract class Part implements Serializable {
     @Min(value = 0, message = "Inventory value must be positive")
     int inv;
 
-    @Min(value = 10, message = "Inventory value must be at least 10")
-    @Max(value = 50, message = "Inventory cannot exceed 50")
+    @Min(value = 10, message = "Inventory value must be at least 10 and no greater than 50")
+    @Max(value = 50, message = "Inventory value must be at least 10 and no greater than 50")
     int maxInv;
-    @Min(value = 10, message = "Inventory value must be at least 10 ")
-    @Max(value = 50, message = "Inventory cannot exceed 50")
+    @Min(value = 10, message = "Inventory value must be at least 10 and no greater than 50 ")
+    @Max(value = 50, message = "Inventory value must be at least 10 and no greater than 50")
     int minInv;
 
     @ManyToMany
