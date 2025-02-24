@@ -13,11 +13,11 @@ import java.lang.annotation.Target;
  *
  *
  */
-@Constraint(validatedBy = {EnufPartsValidator.class})
+@Constraint(validatedBy = {EnufPartsValidator2.class})
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ValidEnufParts {
-    String message() default "There aren't enough parts in inventory!";
+public @interface ValidEnufParts2 {
+    String message() default "This would add too many parts to the inventory!";
     Class<?> [] groups() default {};
     Class<? extends Payload> [] payload() default {};
 

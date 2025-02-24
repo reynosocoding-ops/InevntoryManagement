@@ -132,6 +132,11 @@ File name: AddProductController.java
   Line numbers: 36
   Change: changed logic to return error if inv falls below minimum
 
+  file name: EnufPartsValidator2.java
+    Line numbers: all
+    Change: created new validators to check if updating products would add too many parts
+
+
  I.  Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
 
 
