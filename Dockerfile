@@ -1,8 +1,7 @@
 # Stage 1: Build the Spring Boot application
 # Use a Maven image that includes JDK for compilation
 # This image provides Maven and OpenJDK 21
-FROM maven:3.9.6-openjdk-21 AS build
-
+FROM maven:3.9.6-eclipse-temurin-21 AS build 
 # Set the working directory inside the container for the build stage
 WORKDIR /app
 
@@ -19,8 +18,7 @@ RUN mvn clean package -DskipTests
 # Stage 2: Create the final Docker image for runtime
 # Use a JRE image (Java Runtime Environment) which is smaller and more secure
 # as it doesn't contain development tools like compilers.
-FROM openjdk:21-jre-slim
-
+FROM eclipse-temurin:21-jre-jammy
 # Security best practice: Create a non-root user and switch to it.
 # This reduces potential security risks by not running the application as root.
 RUN addgroup --system spring && adduser --system --ingroup spring spring
